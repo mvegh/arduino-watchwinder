@@ -38,11 +38,14 @@ The dead board was unusable so it was removed. A HG7881 dual bridge motor driver
 ![Schematic diagram](img/07.schematic.jpg "Schematic diagram")
 
 The switches are connected to the analog input pins with internal pull-up resistors enabled. A6 and A7 pins have no such resistors so external ones was used.
+
 The motor driver module is connected to the D3-D11 and D9-D10 pins.
+
 The common pin of both switches are grounded through a 470 Ohm current limiter resistor.
+
 Power is supplied through a polarity protector diode and a 7805 voltage stabilizer. (There is no buffer capacitor on the board because the applied power supply already has that.)
 
-The components were wired on a breakout board.
+The components are wired on a breakout board.
 
 ![Board](img/02.breakout_board.jpg "Board")
 
