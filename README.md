@@ -113,6 +113,6 @@ The following picture shows the PWM signal on CH1 with divisor value 32 which re
 
 ## The code
 
-The machine is controlled by a state machine built up by more classes.
+The machine is controlled by a state machine built up by many classes.
 
 The program can be switched to test mode through the serial interface by entering menu commands. In this mode the delays are short to allow observing the operation.
