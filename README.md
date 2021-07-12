@@ -42,6 +42,10 @@ The motor driver module is connected to the D3-D11 and D9-D10 pins.
 The common pin of both switches are grounded through a 470 Ohm current limiter resistor.
 Power is supplied through a polarity protector diode and a 7805 voltage stabilizer. (There is no buffer capacitor on the board because the applied power supply already has that.)
 
+The components were wired on a breakout board.
+
+![Board](img/02.breakout_board.jpg "Board")
+
 ## PWM Control
 
 Motors are 3V ones so the power of them should be decreased to 3V (on full power). This was achieved by applying a PWM driver voltage with about 60% duty cycle on max speed. Whenever the motors are turned on or off the duty cycle is adjusted continuously so the speed is changed smoothly.
